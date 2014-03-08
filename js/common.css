@@ -1,0 +1,88 @@
+a img{
+	border:0;
+}
+
+#canvas{
+	width:100%;
+	height:495px;
+	border:1px solid #ccc;
+	float:left;
+	/*position:relative;
+	overflow:hidden;*/
+	z-index:1;
+}
+
+.top_panel{
+	/*position:absolute;*/
+	margin-top:20px;
+	top:20px;
+	left:20px;
+	z-index:10;
+}
+.top_panel a{
+	position:relative;
+	z-index:11;
+}
+
+#items{
+	width:100%;
+	/*height:600px;*/
+	float:left;
+	margin-top:20px;
+}
+.top_panel a{
+    background-color: #FFFFFF;
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    overflow: visible;
+    padding: 2px;
+    text-decoration:none;
+}
+
+.delete_me{
+	width:100%;
+	height:600px;
+	text-align:center;
+	line-height:600px;
+	font-weight:bold;
+	font-size:60px;
+	color:#ccc;
+}
+
+.cb{
+	clear:both;
+}
+
+.ui-draggable-dragging.draggable-menu{
+	border:1px solid #666;
+}
+
+.ui-resizable-handle {
+    background-color: #DDDDDD;
+    border: 1px solid #000000;
+    height: 7px;
+    width: 7px;
+}
+
+.ui-icon-gripsmall-diagonal-se{
+	background-image:none;
+}
+
+.ui-wrapper{
+	overflow:visible!important;
+}
+
+.ui-resizable-se{
+	bottom:-5px;
+	right:-5px;
+}
+
+.active{
+	opacity:0.8;
+	z-index:5000;
+}
